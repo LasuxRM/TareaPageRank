@@ -23,7 +23,7 @@ public class main {
 		PRC = (1-d) + d*((PRA2/2) + (PRB2/1) + 0);
 		System.out.println("Fin Iteración 1");
 				
-		for (int i = 0; i < 1000000; i++) {
+		for (int i = 0; i < 1000; i++) {
 						
 			System.out.print("Valor PRA: " + PRA + "--");
 			System.out.print("Valor PRB: " + PRB + "--");

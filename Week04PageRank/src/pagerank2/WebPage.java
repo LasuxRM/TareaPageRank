@@ -60,8 +60,6 @@ public class WebPage {
 		OldPageRank = oldPageRank;
 	}
 
-	
-	
 	public ArrayList<String> getListaLinks() {
 		return ListaLinks;
 	}

@@ -1,8 +1,5 @@
 package tests;
 
-import java.util.ArrayList;
-import java.util.Collections;
-
 import pagerank2.WebPage;
 
 public class mainT {
@@ -12,7 +9,7 @@ public class mainT {
 		int rand, rand2;
 		
 		for (int i=0; i < V.length; i++) {
-						
+			//Implementando random			
 			rand = (int) Math.floor(Math.random()*V.length);
 			System.out.println("Tocó el Índice: " + rand );
 						
